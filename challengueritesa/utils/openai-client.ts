@@ -1,7 +1,9 @@
 import OpenAI from 'openai';
 
+console.log(process.env.OPENAI_SECRET_KEY)
+
 const openai = new OpenAI({
-  apiKey: process.env.NEXT_PUBLIC_OPENAI_SECRET_KEY,
+  apiKey: process.env.OPENAI_SECRET_KEY,
 });
 
 export default openai;
