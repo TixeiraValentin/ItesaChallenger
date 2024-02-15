@@ -1,6 +1,7 @@
 export interface Message {
     text: string;
     isBot: boolean;
+    isLoading: boolean;
   }
   
   export interface ChatBoxProps {
