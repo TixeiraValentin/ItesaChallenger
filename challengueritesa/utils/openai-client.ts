@@ -1,6 +1,6 @@
 import OpenAI from 'openai';
 
-const apiKey = process.env.OPENAI_API_KEY;
+const apiKey = process.env.OPENAI_SECRET_KEY;
 if (!apiKey) {
   throw new Error('The OPENAI_API_KEY is not defined');
 }
